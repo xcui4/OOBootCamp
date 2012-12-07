@@ -1,22 +1,47 @@
-data/Cabinet/Robot.cs.i
-data/Cabinet/Bag.cs.i
-data/CabinetTest/CabinetTest.csproj.i
-data/Cabinet/WrongTicketException.cs.i
-data/Cabinet/Properties/AssemblyInfo.cs.i
-data/Cabinet/bin/Debug/Cabinet.vshost.exe.manifest.i
+data/CabinetUnitTest/SmartRobotTest.cs.i
+data/CabinetTest/bin/Debug/TestResults/HZhang27_BGC-HUIZHANG27 2012-11-02 13_07_59/Out/CabinetSystem.pdb.i
+data/CabinetTest/bin/Debug/TestResults/HZhang27_BGC-HUIZHANG27 2012-11-02 13_07_59/Out/CabinetSystem.exe.i
+data/CabinetSystem/CabinetSystem.sln.i
+data/CabinetSystem/Bag.cs.i
+data/CabinetTest/.hgignore.i
+data/CabinetTest/obj/Debug/ResolveAssemblyReference.cache.i
+data/CabinetSystem/Cabinet.vsmdi.i
+data/CabinetTest/bin/Debug/CabinetSystem.pdb.i
+data/CabinetTest/bin/Debug/CabinetSystem.exe.i
+data/CabinetSystem/Ticket.cs.i
+data/CabinetTest/bin/Debug/TestResults/HZhang27_BGC-HUIZHANG27 2012-11-02 13_07_59/Out/cabinettest.dll.i
+data/CabinetUnitTest/CabinetUnitTest.csproj.i
+data/CabinetSystem/Robot.cs.i
+data/CabinetSystem/TestResults/HZhang27_BGC-HUIZHANG27 2012-11-02 13_05_39.trx.i
+data/CabinetTest/bin/Debug/CabinetTest.pdb.i
+data/CabinetTest/bin/Debug/CabinetTest.dll.i
+data/CabinetTest/obj/Debug/CabinetTest.pdb.i
+data/CabinetSystem/Properties/AssemblyInfo.cs.i
+data/CabinetUnitTest/CabinetTest.cs.i
+data/CabinetSystem/SmartRobot.cs.i
+data/CabinetSystem/LocalTestRun.testrunconfig.i
 data/CabinetTest/AuthoringTests.txt.i
-data/Cabinet/Cabinet.cs.i
-data/Cabinet/bin/Debug/Cabinet.vshost.exe.i
-data/Cabinet/Ticket.cs.i
-data/Cabinet/CabinetSystem.csproj.i
-data/Cabinet/Cabinet.csproj.i
+data/CabinetSystem/bin/Debug/CabinetSystem.vshost.exe.manifest.i
+data/CabinetSystem/bin/Debug/CabinetSystem.exe.i
+data/CabinetTest/obj/Debug/CabinetTest.csproj.FileListAbsolute.txt.i
 data/CabinetTest/RobotTest.cs.i
-data/Cabinet/Program.cs.i
-data/Cabinet.sln.i
-data/Cabinet.suo.i
-data/CabinetTest/UnitTest1.cs.i
+data/CabinetUnitTest/RobotTest.cs.i
+data/CabinetTest/bin/Debug/TestResults/HZhang27_BGC-HUIZHANG27 2012-11-02 13_07_59.trx.i
+data/CabinetSystem/Cabnet.sln.DotSettings.user.i
+data/CabinetSystem/CabinetSystem.csproj.i
+data/CabinetTest/obj/Debug/CabinetTest.dll.i
+data/CabinetTest/Robot.cs.i
 data/.hgignore.i
-data/Cabinet/NoBoxAvailableException.cs.i
 data/CabinetTest/Properties/AssemblyInfo.cs.i
-data/LocalTestRun.testrunconfig.i
-data/CabinetTest/CabinetUnitTest.cs.i
+data/CabinetSystem/obj/Debug/CabinetSystem.exe.i
+data/CabinetTest/CabinetTest.csproj.i
+data/CabinetSystem/obj/Debug/CabinetSystem.pdb.i
+data/CabinetTest/CabinetTest.cs.i
+data/CabinetSystem/bin/Debug/CabinetSystem.pdb.i
+data/CabinetSystem/bin/Debug/CabinetSystem.vshost.exe.i
+data/CabinetSystem/CabinetSystem.sln.DotSettings.user.i
+data/CabinetSystem/Cabinet.cs.i
+data/CabinetTest/bin/Debug/TestResults/HZhang27_BGC-HUIZHANG27 2012-11-02 13_07_59/Out/CabinetTest.pdb.i
+data/CabinetSystem/pingme.txt.i
+data/CabinetUnitTest/Properties/AssemblyInfo.cs.i
+data/CabinetSystem/obj/Debug/CabinetSystem.csproj.FileListAbsolute.txt.i

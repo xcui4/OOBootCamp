@@ -1,72 +1,36 @@
-﻿using CabinetSystem;
+using System.Collections.Generic;
+using CabinetSystem;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace CabinetTest
 {
-    /// <summary>
-    /// Summary description for RobotTest
-    /// </summary>
     [TestClass]
     public class RobotTest
     {
-   
-        #region Additional test attributes
-        //
-        // You can use the following additional attributes as you write your tests:
-        //
-        // Use ClassInitialize to run code before running the first test in the class
-        // [ClassInitialize()]
-        // public static void MyClassInitialize(TestContext testContext) { }
-        //
-        // Use ClassCleanup to run code after all tests in a class have run
-        // [ClassCleanup()]
-        // public static void MyClassCleanup() { }
-        //
-        // Use TestInitialize to run code before running each test 
-        // [TestInitialize()]
-        // public void MyTestInitialize() { }
-        //
-        // Use TestCleanup to run code after each test has run
-        // [TestCleanup()]
-        // public void MyTestCleanup() { }
-        //
-        #endregion
-
         [TestMethod]
-        public void HasAvailableBoxWhenThereIsEmptyBoxInFirstCabinet()
+        public void Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket()
         {
-            var cabinet1 = new Cabinet(1);
-            var cabinet2 = new Cabinet(0);
             var robot = new Robot();
-            robot.AddCabinet(cabinet1);
-            robot.AddCabinet(cabinet2);
-            Assert.IsTrue(robot.HasEmptyBox);
-
+            List<int> emptyCaibet = new List<int> {0, 0, 0};
+            robot.Setup(emptyCaibet);
+            var bag = new Bag();
+            var ticket = robot.Store(bag);
+            Assert.IsNull(ticket);
         }
 
         [TestMethod]
-        public void ShouldReturnTicketGivenBoxAvailableWhenStoreBagByRobot()
+        public void Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket()
         {
-            var cabinet = new Cabinet(1);
+            var robot = new Robot();
+            List<int> emptyCaibet = new List<int> { 0, 1, 0 };
+            robot.Setup(emptyCaibet);
             var bag = new Bag();
-            Robot robot = new Robot();
-            robot.AddCabinet(cabinet);
             var ticket = robot.Store(bag);
-
             Assert.IsNotNull(ticket);
         }
-
-        [TestMethod]
-        [ExpectedException(typeof(NoBoxAvailableException))]
-        public void ShouldThrowNoEmptyBoxWhenAllCabinetsAreFull()
-        {
-            var cabinet = new Cabinet(0);
-            var bag = new Bag();
-            Robot robot = new Robot();
-            robot.AddCabinet(cabinet);
-            var ticket = robot.Store(bag);
-
-            Assert.IsNotNull(ticket);
-        }
+      
     }
+
+
 }
