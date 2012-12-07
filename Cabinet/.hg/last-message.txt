@@ -1,0 +1,3 @@
+commit after two feature: 
+1. Check if has empty for robot
+2. all cabinet full throw exception

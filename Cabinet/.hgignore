@@ -1,0 +1,10 @@
+syntax: glob
+_ReSharper.*
+*.dll
+*.exe
+*.pdb
+TestResults/*
+Cabinet.6.0.ReSharper.user
+*.vsmdi
+*/obj/*
+*/bin/*
